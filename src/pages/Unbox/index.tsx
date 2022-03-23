@@ -3,7 +3,7 @@ import React from "react";
 function Unbox() {
   return (
     <div>
-      <h1>Galeria</h1>
+      <h1>Unbox</h1>
     </div>
   );
 }

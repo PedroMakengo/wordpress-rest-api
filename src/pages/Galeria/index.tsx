@@ -3,7 +3,7 @@ import React from "react";
 function Galeria() {
   return (
     <div>
-      <h1>1</h1>
+      <h1>Galeria</h1>
     </div>
   );
 }

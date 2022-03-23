@@ -1,7 +1,11 @@
 import React from "react";
 
 function Disponbilidades() {
-  return <div>Disponbilidades</div>;
+  return (
+    <div>
+      <h1>Disponbilidades</h1>
+    </div>
+  );
 }
 
 export default Disponbilidades;
