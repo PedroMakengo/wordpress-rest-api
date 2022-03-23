@@ -1,0 +1,36 @@
+header {
+  height: 20vh;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container .logo img {
+  width: 60%;
+}
+
+header .container nav a {
+  margin-right: 3rem;
+  color: #fff;
+}
+
+header .container .disponibilidade a {
+  width: 204px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #9bf00b;
+
+  color: #000;
+}
