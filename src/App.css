@@ -9,11 +9,30 @@ body {
 }
 
 .container {
-  max-width: 60rem;
+  max-width: 55rem;
   margin: 0 auto;
 }
 
 a {
   text-decoration: none;
   text-transform: uppercase;
+}
+
+footer {
+  color: #777777;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .copyright {
+  width: 43%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 60%;
 }
