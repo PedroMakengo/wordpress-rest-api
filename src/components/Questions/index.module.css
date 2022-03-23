@@ -1,0 +1,17 @@
+.contentQuestions {
+  padding: 6rem 0;
+}
+
+.contentQuestions h2 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+
+  color: #fff;
+}
+
+.contentQuestions h2 span {
+  color: #9bf00b;
+}
