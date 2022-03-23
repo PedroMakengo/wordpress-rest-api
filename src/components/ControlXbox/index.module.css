@@ -1,7 +1,7 @@
 .controlContent {
   display: flex;
   justify-content: space-between;
-  padding: 6rem 0 8rem 0;
+  padding: 6rem 0 12rem 0;
 }
 
 .controlContent .controlInfo,
@@ -24,6 +24,7 @@
 .controlContent .controlInfo p {
   color: #c0c0c0;
   width: 460px;
+  line-height: 170%;
 }
 
 .controlContent .controlInfo h2 span {
