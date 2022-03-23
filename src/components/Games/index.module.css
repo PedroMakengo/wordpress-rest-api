@@ -1,7 +1,7 @@
 .games {
   display: flex;
   width: 100%;
-  margin-bottom: 8rem;
+  padding: 5rem 0;
 }
 
 .games .cardGame {
