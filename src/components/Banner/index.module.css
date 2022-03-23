@@ -1,0 +1,42 @@
+.banner {
+  height: 130vh;
+
+  background: #0d0d0d;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.banner p {
+  font-size: 1rem;
+  color: #9bf00b;
+  margin-top: 1rem;
+}
+
+.banner img {
+  width: 60%;
+  display: block !important;
+}
+
+/* UBOX */
+.ubox {
+  background: linear-gradient(
+    180deg,
+    #00000000 0%,
+    #86cf0942 20.31%,
+    #9bf00b4d 23.53%,
+    #00db004d 35.42%,
+    #007b004d 40.63%,
+    #0084001b 49.51%
+  );
+  opacity: 0.7;
+  border: 1px solid #000000;
+  filter: blur(280px);
+}

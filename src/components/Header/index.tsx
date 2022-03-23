@@ -12,7 +12,7 @@ function Header() {
           <img src={logo} alt="Logo UNBOX" />
         </div>
         <nav>
-          <Link to="/">Home</Link>
+          <Link to="/">Visão Geral</Link>
           <Link to="/jogos">Jogos</Link>
           <Link to="/galeria">Galeria</Link>
           <Link to="/unbox">Unbox</Link>
