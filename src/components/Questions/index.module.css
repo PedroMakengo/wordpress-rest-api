@@ -1,5 +1,6 @@
 .contentQuestions {
   padding: 6rem 0;
+  height: 70vh;
 }
 
 .contentQuestions h2 {
@@ -14,4 +15,8 @@
 
 .contentQuestions h2 span {
   color: #9bf00b;
+}
+
+.questions {
+  margin-top: 5rem;
 }
