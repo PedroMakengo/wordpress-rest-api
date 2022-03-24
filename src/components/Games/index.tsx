@@ -1,25 +1,24 @@
-import farcry from "../../assets/logo/logo-farcry6.svg";
+import ItemGamer from "../ItemGamer";
+import styles from "./index.module.css";
+
+import farcry6 from "../../assets/logo/logo-farcry6.svg";
 import forza from "../../assets/logo/logo-forza.svg";
 import fifa from "../../assets/logo/logo-fifa.svg";
 import minecraft from "../../assets/logo/logo-minecraft.svg";
 
-import styles from "./index.module.css";
+const arrayImagem = [
+  { id: 1, src: farcry6, alt: "Farcry6" },
+  { id: 2, src: forza, alt: "Farcry6" },
+  { id: 3, src: fifa, alt: "Farcry6" },
+  { id: 4, src: minecraft, alt: "Farcry6" },
+];
 
 function Games() {
   return (
     <section className={styles.games}>
-      <div className={styles.cardGame}>
-        <img src={farcry} alt="" />
-      </div>
-      <div className={styles.cardGame}>
-        <img src={forza} alt="" />
-      </div>
-      <div className={styles.cardGame}>
-        <img src={fifa} alt="" />
-      </div>
-      <div className={styles.cardGame}>
-        <img src={minecraft} alt="" />
-      </div>
+      {arrayImagem.map(({ id, src, alt }) => (
+        <ItemGamer id={id} src={src} alt={alt} className={styles.cardGame} />
+      ))}
     </section>
   );
 }

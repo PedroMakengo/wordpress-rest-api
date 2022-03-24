@@ -2,6 +2,9 @@
   display: flex;
   width: 100%;
   padding: 5rem 0;
+
+  animation: down-anime 1s forwards;
+  box-sizing: border-box;
 }
 
 .games .cardGame {
@@ -13,6 +16,11 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+
+.games .cardGame:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
 }
 
 .games .cardGame img {
@@ -38,4 +46,15 @@
 .games .cardGame:nth-child(4) {
   background-image: linear-gradient(#00000000, #0d0d0d),
     url(../../assets/games/bg-minecraft.svg);
+}
+
+@keyframes down-anime {
+  from {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
