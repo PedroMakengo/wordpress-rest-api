@@ -14,8 +14,7 @@ function ItemQuestion({ id, question, response }: ItemQuestion) {
   const [itemQuestion, setItemQuestion] = useState(true);
 
   function handleChange() {
-    setItemQuestion(!itemQuestion);
-    console.log(itemQuestion);
+    setItemQuestion((itemQuestion) => !itemQuestion);
   }
   return (
     <div className={styles.itemQuestion} key={id} onClick={handleChange}>
