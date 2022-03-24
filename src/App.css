@@ -35,6 +35,10 @@ a {
   margin: 2rem 0;
 }
 
+main {
+  display: none;
+}
+
 footer {
   color: #777777;
   padding: 2rem 0;

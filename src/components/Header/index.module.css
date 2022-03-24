@@ -36,3 +36,28 @@ header .container nav a {
 
   color: #000;
 }
+
+@media (max-width: 768px) {
+  header {
+    height: 15vh;
+  }
+
+  .disponibilidade a,
+  header .container nav {
+    display: none;
+  }
+
+  header .container {
+    max-width: 90%;
+  }
+
+  header .container .logo {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  header .container .logo img {
+    width: 30%;
+  }
+}

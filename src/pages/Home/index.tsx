@@ -7,9 +7,11 @@ function Home() {
   return (
     <div>
       <Banner />
-      <ControlXbox />
-      <Games />
-      <Questions />
+      <main>
+        <ControlXbox />
+        <Games />
+        <Questions />
+      </main>
     </div>
   );
 }
