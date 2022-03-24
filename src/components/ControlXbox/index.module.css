@@ -36,3 +36,38 @@
   display: flex;
   align-items: flex-end;
 }
+
+@media (max-width: 768px) {
+  .controlContent {
+    flex-direction: column;
+    padding: 5rem 2rem;
+  }
+
+  .controlContent .controlInfo,
+  .controlContent .controlSection {
+    width: 100%;
+  }
+
+  .controlContent .controlInfo h2 {
+    font-size: 1.5rem;
+  }
+
+  .controlContent .controlInfo p {
+    width: 100%;
+  }
+
+  .controlContent .controlSection {
+    margin-top: 3rem;
+  }
+
+  .controlContent .controlSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .controlContent .controlSection img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
