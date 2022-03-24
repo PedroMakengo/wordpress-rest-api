@@ -18,9 +18,24 @@ a {
   text-transform: uppercase;
 }
 
+/* PÁGINA NÃO ENCONTRADA */
+.notFound {
+  height: 110vh;
+}
+
+.notFound .container {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.notFound .container h1 {
+}
+
 footer {
   color: #777777;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
 }
 
 footer .container {

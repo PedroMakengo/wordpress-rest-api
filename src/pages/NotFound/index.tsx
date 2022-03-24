@@ -1,8 +1,15 @@
 function NotFound() {
   return (
-    <div className="container">
-      <h1>Página Não Encontrada</h1>
-    </div>
+    <section className="notFound">
+      <div className="container">
+        <div className="describe">
+          <h1>Página Não Encontrada</h1>
+        </div>
+        <div>
+          <img src="" alt="" />
+        </div>
+      </div>
+    </section>
   );
 }
 

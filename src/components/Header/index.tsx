@@ -8,9 +8,9 @@ function Header() {
   return (
     <header>
       <div className={`${styles.container} container`}>
-        <div className={styles.logo}>
+        <Link to="/" className={styles.logo}>
           <img src={logo} alt="Logo UNBOX" />
-        </div>
+        </Link>
         <nav>
           <Link to="/">Visão Geral</Link>
           <Link to="/jogos">Jogos</Link>
