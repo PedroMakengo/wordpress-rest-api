@@ -28,9 +28,11 @@ a {
   display: flex;
   align-items: center;
   color: #fff;
+  justify-content: center;
+  flex-direction: column;
 }
-
 .notFound .container h1 {
+  margin: 2rem 0;
 }
 
 footer {
