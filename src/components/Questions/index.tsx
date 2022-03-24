@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import styles from "./index.module.css";
-import ItemQuestion from "./ItemQuestion";
+import ItemQuestion from "../ItemQuestion";
 
 const arrayQuestions = [
   {
