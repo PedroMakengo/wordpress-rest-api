@@ -7,6 +7,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  background-image: url(../../assets/banner/luz-verde.svg);
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
 }
 
 .banner h1 {
@@ -23,6 +28,7 @@
 }
 
 .banner img {
-  width: 60%;
+  width: 70%;
   margin-top: 3rem;
+  background: linear-gradient(transparent, #0d0d0d);
 }
