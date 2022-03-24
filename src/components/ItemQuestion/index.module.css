@@ -47,3 +47,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+  .itemQuestion h3 {
+    font-size: 1rem;
+    width: 80%;
+  }
+}
