@@ -54,3 +54,24 @@ footer .container .copyright {
 footer img {
   width: 60%;
 }
+
+@media (max-width: 768px) {
+  footer .container {
+    flex-direction: column;
+    padding: 0 2rem;
+    box-sizing: border-box;
+  }
+
+  footer .container .copyright {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  footer .container .copyright span {
+    width: 100%;
+  }
+
+  footer img {
+    width: 20%;
+  }
+}

@@ -41,6 +41,7 @@
   .controlContent {
     flex-direction: column;
     padding: 5rem 2rem;
+    box-sizing: border-box;
   }
 
   .controlContent .controlInfo,
