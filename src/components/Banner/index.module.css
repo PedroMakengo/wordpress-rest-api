@@ -32,3 +32,17 @@
   margin-top: 3rem;
   background: linear-gradient(transparent, #0d0d0d);
 }
+
+@media (max-width: 768px) {
+  .banner {
+    height: 50vh;
+  }
+
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+}
